@@ -1,0 +1,16 @@
+body {
+    font-family: fantasy;
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+    background-color: #143872;   
+}
+
+h1, h2, h3 {
+    color: pink;
+}
+
+h1 {
+    text-decoration: underline;
+    color: rgba{199, 245, 65, .5};
+}
