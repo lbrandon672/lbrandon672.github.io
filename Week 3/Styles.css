@@ -1,0 +1,16 @@
+body{
+    font-family: cursive;
+    font-size: 14px;
+    color: orange;
+    line-height: 1.4;
+    background-color: navy;
+}
+
+h1,h2 {
+    color:pink:
+}
+
+h1 {
+    text-decoration: underline;
+    color: rgba{199, 245, 65, .5};
+}
