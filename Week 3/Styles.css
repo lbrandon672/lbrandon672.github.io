@@ -14,3 +14,7 @@ h1 {
     text-decoration: underline;
     color: rgba{199, 245, 65, .5};
 }
+
+p, ol, ul {
+    font-family: sans-serif
+}
