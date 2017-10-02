@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One|PT+Sans+Narrow');
+
+body {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* layout */
+
+.header {
+    width:100%;
+    background-color: blue;
+    position:fixed;
+    top: 0;
+    padding: fixed;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    float: left;
+}
+
+.header h2 {
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 700px;
+    background-color: hotpink;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.event {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.event h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", sans-serif;
+    text-decoration: underline;
+}
+
+.event .location {
+    background-color: forestgreen;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    border-radius: 50%;
+}
+
+.event ul{
+    font-family: "Bubbler One", sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event ul li {
+    margin-bottom: 1rem;
+}
