@@ -3,9 +3,9 @@
 body {
     font-family: 'Bubbler One', sans-serif;
     font-size: 28px;
-    background-color: white;
+    background-color: black;
     font-weight: bold;
-    background-image: url(https://i.pinimg.com/736x/7c/1b/61/7c1b61a96afbbf5f0e5c8ae9da6764fe--green-watercolor-abstract-watercolor.jpg);
+    background-image: url(http://38.media.tumblr.com/b7a30731e11324163548c82848366b4a/tumblr_mtr34aeFWU1rat0tqo1_500.gif);
     background-attachment: fixed;
     background-size: cover;
     margin-bottom: 70px;
@@ -21,10 +21,14 @@ h1, h2, h3 {
 
 h1, h2 {
     text-decoration: underline;
-    color: rgba{199, 245, 65, .5};
+    color: fuchsia;
     font-family: sans-serif;
     font-size: 2rem;
     box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 h3 {
@@ -37,16 +41,16 @@ h4 {
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: lighter;
     font-size: 15px;
-    margin-right: 445px;
-    margin-top: 5px;
+    margin-right: 140px;
+    margin-top: 0px;
     margin-bottom: 25px;
+    line-height: 0px;
 }
 
 p {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    text-align: left;
 }
 
 .header {
@@ -58,21 +62,26 @@ p {
     box-sizing: border-box;
     max-height: 200px;
     margin: auto;
+    z-index: 999;
 }
 
 .header h1 {
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer {
     width: 100%;
+    height: 50px;
     padding: 10px;
     position: fixed;
     bottom: 0px;
     text-align: center;
-    background-color: black;
-    color: fuchsia;
+    color: greenyellow;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: scroll;
 }
 
 
@@ -86,6 +95,7 @@ p {
 .event {
     margin-bottom: 50px;
     position: relative;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .event h3{
@@ -93,9 +103,10 @@ p {
     text-transform: uppercase;
     font-family: "PT Sans Narrow", sans-serif;
     text-decoration: underline;
-    margin-top: 150px;
+    margin-top: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: yellow;
 }
 
 .event .location {
@@ -132,20 +143,31 @@ p {
 }
 
 ol li {
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
     color: fuchsia;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.background {
+    background: rgba(0, 0, 0, 0.8);
+}
+
 ul li {
-    background-color: black;
     color: fuchsia;
     text-align: center;
     box-sizing: border-box;
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 25px;
-    
 }
+
+.art-img {
+    width: 100%;
+    height: 430px;
+    background: url('http://38.media.tumblr.com/f8ed2ebb7347d939ef2678f478c17d6e/tumblr_na5ocmljer1r2geqjo1_500.gif') center;
+    background-size: cover;
+    z-index: -999;
+}
+
