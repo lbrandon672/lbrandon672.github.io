@@ -1,0 +1,98 @@
+/* portfolio site */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Economica|Electrolize|Press+Start+2P');
+/*
+font-family: 'Roboto Condensed', Impact, sans-serif;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+*/
+
+/* Global Styles */
+body {
+    font-family: 'Economica', sans-serif, 'Electrolize', sans-serif, 'Press Start 2P', cursive;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #666666;
+    background-color: white;
+}
+
+.content {
+    margin-top: 3.5em;
+}
+
+.content h1 {
+    font-family: 'Electrolize', sans-serif, 'Electrolize', sans-serif, 'Press Start 2P', cursive;
+    text-align: center;
+    color: hotpink;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content p {
+    text-align: center;
+    font-family:'Press Start 2P', sans-serif, 'Electrolize', sans-serif;
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    border-top: 6px solid red;
+    z-index: 99999;
+    box-sizing: border-box;
+}
+
+.header img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav { 
+    font-family: 'Electrolize', sans-serif, 'Press Start 2P', cursive;
+   background-color: darkblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+nav ul {
+   
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: hotpink;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width:599px) {
+
+}
+
+
+
+
+
+
+
