@@ -95,11 +95,12 @@ nav ul li a:hover {
 #footer {
     clear: both; 
     background: url(images/background-bottom-jaw.png);
-    height: 100px;
+    height: 190px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 27px;
     float:bottom;
 }
+
 /* Responsive Styles */
 
 @media screen and (max-width:599px) {
