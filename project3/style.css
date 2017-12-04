@@ -12,27 +12,30 @@ body {
     font-family: 'Economica', sans-serif, 'Electrolize', sans-serif, 'Press Start 2P', cursive;
     font-size: 18px;
     line-height: 1.6em;
-    color: #666666;
-    background-color: white;
+    color: #666666;   
+    background-image:url(images/background-top-jaw.png);
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .content {
-    margin-top: 3.5em;
+    margin-top: 6em;
 }
 
 .content h1 {
     font-family: 'Electrolize', sans-serif, 'Electrolize', sans-serif, 'Press Start 2P', cursive;
     text-align: center;
     color: hotpink;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .content p {
     text-align: center;
     font-family:'Press Start 2P', sans-serif, 'Electrolize', sans-serif;
-    font-size: 8px;
-    margin-top: 10px;
+    font-size: 10px;
+    margin-top: 20px;
 }
 
 header {
@@ -46,23 +49,28 @@ header {
 }
 
 .header img {
-    width: 300px;
+    width: 150px;
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tab {
+    background-color: hotpink;
+    padding-top: 7px;
 }
 
 nav { 
     font-family: 'Electrolize', sans-serif, 'Press Start 2P', cursive;
-   background-color: darkblue;
+   background-color: rgb(40, 45, 102);
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-
 }
 
 nav ul {
-   
+    
 }
 
 nav ul li {
@@ -84,6 +92,14 @@ nav ul li a:hover {
     color: white;
 }
 
+#footer {
+    clear: both; 
+    background: url(images/background-bottom-jaw.png);
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+    float:bottom;
+}
 /* Responsive Styles */
 
 @media screen and (max-width:599px) {
